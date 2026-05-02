@@ -11107,8 +11107,9 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
 
-  #dog-show-box {
+ #dog-show-box {
     background-color: rgb(235, 245, 225);
     border: 5px solid rgb(75, 120, 70);
     border-radius: 20px;
@@ -11131,17 +11132,47 @@ footer.footer .social-link:hover {
     border-radius: 15px;
 }
 
-#animal-fact {
-    background-color: white;
-    padding: 15px;
-    margin: 15px;
-    border-radius: 15px;
-}
-
 #zoo-message {
     background-color: rgb(255, 240, 180);
     padding: 15px;
     margin: 15px;
     border-radius: 15px;
 }
+
+
+
+.masthead {
+    background: linear-gradient(rgba(235, 245, 225, 0.7), rgba(235, 245, 225, 0.7)), url("../assets/img/DogShowBack.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.callout {
+    background: linear-gradient(rgba(255, 240, 180, 0.7), rgba(255, 240, 180, 0.7)), url("../assets/img/bg-callout.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-primary {
+    background-color: rgb(75, 120, 70) !important;
+}
+
+.text-secondary {
+    color: rgb(255, 220, 120) !important;
+}
+
+
+
+.btn-primary {
+    background-color: rgb(75, 120, 70);
+    border-color: rgb(75, 120, 70);
+}
+
+.btn-primary:hover {
+    background-color: rgb(55, 95, 55);
+
+    border-color: rgb(55, 95, 55);
 }
