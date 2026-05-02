@@ -11107,4 +11107,41 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+
+  #dog-show-box {
+    background-color: rgb(235, 245, 225);
+    border: 5px solid rgb(75, 120, 70);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+#animal-picture-box {
+    background-color: white;
+    border: 2px dashed rgb(75, 120, 70);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+}
+
+#animal-picture-box img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+#animal-fact {
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+#zoo-message {
+    background-color: rgb(255, 240, 180);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+}
 }

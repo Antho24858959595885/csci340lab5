@@ -19,7 +19,7 @@ window.addEventListener('DOMContentLoaded', event => {
     // Closes responsive menu when a scroll trigger link is clicked
     var scrollTriggerList = [].slice.call(document.querySelectorAll('#sidebar-wrapper .js-scroll-trigger'));
     scrollTriggerList.map(scrollTrigger => {
-        scrollTrigger.addEventListener('click', () => {
+        scrollTrigger.addEventListener('click', () => { 
             sidebarWrapper.classList.remove('active');
             menuToggle.classList.remove('active');
             _toggleMenuIcon();
@@ -101,7 +101,7 @@ $("#color-button").on("click", function(event) {
     $("#zoo-message").text("New color loading...");
 
     $.getJSON("https://x-colors.yurace.pro/api/random", function(data) {
-        $("#zoo-exhibit").css("background-color", data.hex);
+        $("#dog-show-box").css("background-color", data.hex);
         $("#zoo-message").text("The show color changed.");
     });
 });
@@ -116,6 +116,6 @@ $("#reset-button").on("click", function(event) {
     $("#animal-name").text("Mystery Dog");
     $("#animal-picture-box").text("Dog pic here.");
     $("#animal-fact").text("Dog fact here");
-    $("#zoo-exhibit").css("background-color", "rgb(235, 245, 225)");
+    $("#dog-show-box").css("background-color", "rgb(235, 245, 225)");
     $("#zoo-message").text("The puppies are ready to meet you!");
 });
